@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09B0D192-5B44-4D54-DF54-F3D3B788795F" containerWithKeyObject="26F2B8DC-EA0C-7F66-6367-E5D777574054" localFKIndex="8B67A343-F7C7-75AF-D1A4-F19B64812D96" name="PH_EMP_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>PH_EMP_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<referredTableLongName>MBRUS.EMPLOYEES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD248E79-CB84-4F2F-A5FA-A15A14212729</referredTableID>
+<keyObject>98867FF1-5821-FB1F-291C-D7A3B76B662B</keyObject>
+<referredKeyID>98867FF1-5821-FB1F-291C-D7A3B76B662B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPLOYEE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

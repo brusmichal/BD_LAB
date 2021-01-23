@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20307849-BC0F-FC25-BD7A-B393CB6B2E67" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="KRAJE">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>KRAJE</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KRAJU" id="4E933BCA-F5BA-4333-AE0E-D262476B0A0C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>KRAJE</sourceObjSchema>
+<sourceObjName>ID_KRAJU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="89AAD39F-8733-80DF-D769-9E28AC367074">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>KRAJE</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REGIONU" id="959E700C-FF2F-04A5-AD61-F67A35D6DBB5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>KRAJE</sourceObjSchema>
+<sourceObjName>ID_REGIONU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C93F7F06-73F9-1750-9716-B55432D081C0" referredColumn="F2BCFC8E-D7AA-3DAC-03B5-611D72F0146D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52B6A587-4620-3581-6A9D-2EE838F97011" name="KRAJE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>KRAJE_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E933BCA-F5BA-4333-AE0E-D262476B0A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E041BEEF-033C-5528-47C1-07FB020996B6" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="KRAJE_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>KRAJE_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E933BCA-F5BA-4333-AE0E-D262476B0A0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41F7214C-8F8A-647C-62C7-9707F770A0A6" name="KRAJ_REGION_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="959E700C-FF2F-04A5-AD61-F67A35D6DBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

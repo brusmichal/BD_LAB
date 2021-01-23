@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A2630C-5E18-2825-247B-E8FE7E370F22" name="Pracownik">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:26:16 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Imię" id="D8C46348-C72F-DB26-0AB0-390E7B4BE1FC">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:35:22 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="FD841879-B3AC-229E-335C-0379658F8783">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:39:19 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wynagrodzenie" id="089C1360-48C6-E4E7-E350-DBE8E245A5D5">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:39:49 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pracownik_ID" id="6B626AE0-7D56-B7CF-CA79-DFF6F06E4B8D">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:14:11 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,8,10</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B3AE6C1-1246-AA11-15EC-4645428A3368" name="Pracownik PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:14:46 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B626AE0-7D56-B7CF-CA79-DFF6F06E4B8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

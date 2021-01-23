@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REGIONY" directorySegmentName="seg_0" id="67CEB80B-8FF4-4F33-57A5-C3E5442B030C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9FFBE884-F49D-6FAD-988C-32880741E774</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="9C34A7C8-90B3-66FE-FBB5-4ADCD82E36A7">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REGIONU" id="F2BCFC8E-D7AA-3DAC-03B5-611D72F0146D">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REGIONY_PK" id="F9FE8337-95BE-6A06-6082-3EB1673951B1">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REGIONY_PK" id="5C38D39B-A3FC-A8F2-7C92-88B500A02BA6">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<existingIndex>F9FE8337-95BE-6A06-6082-3EB1673951B1</existingIndex>
+<indexSegment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

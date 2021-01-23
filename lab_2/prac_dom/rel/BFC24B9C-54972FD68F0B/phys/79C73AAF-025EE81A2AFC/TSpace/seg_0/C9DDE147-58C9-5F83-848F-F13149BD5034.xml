@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="II_DATA" directorySegmentName="seg_0" id="C9DDE147-58C9-5F83-848F-F13149BD5034">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>II_DATA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:21:45 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

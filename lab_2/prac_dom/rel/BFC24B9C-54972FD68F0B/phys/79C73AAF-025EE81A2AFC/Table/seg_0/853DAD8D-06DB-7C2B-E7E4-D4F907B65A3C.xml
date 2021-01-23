@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ADRESY" directorySegmentName="seg_0" id="853DAD8D-06DB-7C2B-E7E4-D4F907B65A3C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9FFBE884-F49D-6FAD-988C-32880741E774</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MIASTO" id="4E0E5570-C8AB-F171-7238-FBF0E75C5EC3">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KOD_POCZTOWY" id="64E284CF-95D3-DF00-164C-DDD822365EEA">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ULICA" id="8B481F36-DF65-46E5-626F-B475978F4DEE">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ADRESU" id="A5F3F724-4A31-10A6-CC22-052A6C8C4594">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KRAJU" id="FC55CBA1-B945-DA4A-1E05-C5E62D1C779C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ADRESY_PK" id="74287709-F798-28E3-36B7-5E5953E780CC">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ADRES_KRAJ_FK" id="89DC788F-E211-8145-E43D-D71FC3E20E5C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:14 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADRESY_PK" id="B1B14FFD-4CAE-48E4-F4A6-4AE8E5FA5DE9">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:14 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<existingIndex>74287709-F798-28E3-36B7-5E5953E780CC</existingIndex>
+<indexSegment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

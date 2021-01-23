@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63950102-F53B-18F6-AAA2-48B819D92FD4" containerWithKeyObject="853DAD8D-06DB-7C2B-E7E4-D4F907B65A3C" localFKIndex="89DC788F-E211-8145-E43D-D71FC3E20E5C" name="ADRES_KRAJ_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADRES_KRAJ_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:14 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<referredTableLongName>MBRUS.KRAJE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20307849-BC0F-FC25-BD7A-B393CB6B2E67</referredTableID>
+<keyObject>52B6A587-4620-3581-6A9D-2EE838F97011</keyObject>
+<referredKeyID>52B6A587-4620-3581-6A9D-2EE838F97011</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_KRAJU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

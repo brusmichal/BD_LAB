@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Historia zatrudnienia" directorySegmentName="seg_0" id="E40E346F-6DB7-3912-9BEA-F0F8CD6436C4">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:12:45 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B1A2630C-5E18-2825-247B-E8FE7E370F22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4323ED79-E8A2-5A38-DEF2-6CAC1E9C2B4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Data_od" id="3C4BF228-5146-A4C2-0CAF-19AFB3087E03">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:15:06 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Data_do" id="16631AF0-9179-8BE7-10A9-B60AD303DB17">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:15:48 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

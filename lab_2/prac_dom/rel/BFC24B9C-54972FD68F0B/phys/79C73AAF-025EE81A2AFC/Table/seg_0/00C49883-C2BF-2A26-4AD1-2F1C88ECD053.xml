@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="STANOWISKA" directorySegmentName="seg_0" id="00C49883-C2BF-2A26-4AD1-2F1C88ECD053">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9FFBE884-F49D-6FAD-988C-32880741E774</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAX_ZAROBKI" id="1B25F8CD-DF12-24AA-C207-5DCCC1E2C716">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIN_ZAROBKI" id="3788FB73-8A8D-EFA9-AD25-FEBF4B39C984">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="6A32601C-9BCD-906A-5F59-3449E4A4883B">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_STANOWISKA" id="CE6350B7-21CE-764F-C268-63C86D52A2AB">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STANOWISKA_PK" id="4C3167A3-9C69-B8A5-1C9F-D03291988097">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STANOWISKA_PK" id="177D847E-D5C6-C5B7-93E5-931AB5777361">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<existingIndex>4C3167A3-9C69-B8A5-1C9F-D03291988097</existingIndex>
+<indexSegment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

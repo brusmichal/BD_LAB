@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E14B508D-EF73-C718-1B2E-1456C28F97F1" containerWithKeyObject="E72938E2-AE75-8FDD-DC39-92550E853AEA" localFKIndex="E3473A5C-7B98-53B0-6D0D-4CC1317C5E1A" name="PRACOWNIK_KIEROWNIK_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>PRACOWNIK_KIEROWNIK_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:07 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<referredTableLongName>MBRUS.PRACOWNICY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E72938E2-AE75-8FDD-DC39-92550E853AEA</referredTableID>
+<keyObject>DF5D862B-974A-3E0E-3250-6027729EC8CE</keyObject>
+<referredKeyID>DF5D862B-974A-3E0E-3250-6027729EC8CE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PRACOWNIKA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

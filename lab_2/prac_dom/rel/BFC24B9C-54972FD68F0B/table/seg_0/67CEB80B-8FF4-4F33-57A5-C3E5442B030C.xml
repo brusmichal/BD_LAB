@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67CEB80B-8FF4-4F33-57A5-C3E5442B030C" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="REGIONY">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REGIONY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGIONU" id="F2BCFC8E-D7AA-3DAC-03B5-611D72F0146D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>REGIONY</sourceObjSchema>
+<sourceObjName>ID_REGIONU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="9C34A7C8-90B3-66FE-FBB5-4ADCD82E36A7">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>REGIONY</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C38D39B-A3FC-A8F2-7C92-88B500A02BA6" name="REGIONY_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REGIONY_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2BCFC8E-D7AA-3DAC-03B5-611D72F0146D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9FE8337-95BE-6A06-6082-3EB1673951B1" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="REGIONY_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REGIONY_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:46 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2BCFC8E-D7AA-3DAC-03B5-611D72F0146D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

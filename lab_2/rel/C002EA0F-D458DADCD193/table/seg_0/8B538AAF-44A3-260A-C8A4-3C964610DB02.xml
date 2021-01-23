@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B538AAF-44A3-260A-C8A4-3C964610DB02" name="Adres">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:29:27 UTC</createdTime>
+<generatorID>1A47319D-FADD-D2D0-BA58-2B1616AAFB8A</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ulica" id="4F4B003D-C724-75E3-9991-D77711D0E37A">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>D9BD1263-E71E-DBCD-050A-3FC1F6275BF8</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kod_pocztowy" id="78D4D896-52E8-BC11-3F81-40170C579AFD">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>2E4CE888-5F94-F986-DDED-91C56A5A3499</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miasto" id="88479261-DE99-1C7B-2A88-C9D06F54F3B6">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>0ED10DCE-8197-D752-76E7-2F61545ECCBD</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj" id="34E193A8-103E-5A7E-0E91-0274DDB7A986">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>4A287A07-AD56-4793-9A40-6290427F9FED</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_Region_ID1" id="E94B1F3A-176F-76C7-169D-6F05A01D6C9B">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BD8BDEC-0265-5902-6E9C-A27BF8B0126E" referredColumn="0471D0FC-382F-E1AC-9BE8-3A638F473D5F"/>
+</associations>
+</Column>
+<Column name="Adres_ID" id="E3BFB100-DDAB-08CA-A32E-FC03BEF11E8B">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>1FCBF721-2ECF-A8F4-9396-7ADE0978BC3C</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,5,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kraj_Kraj_ID" id="B9508DFA-1CC1-B7FD-F6D1-D85FBE89D45B">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>B3BB5E29-17BE-9D46-2B18-869315B1C472</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="749E48AD-FD4E-2413-801C-5F4666F65064" referredColumn="FD0A1CE8-93F5-623F-0DBA-F9A1A5933762"/>
+</associations>
+</Column>
+<Column name="Zakład_Zakład_ID2" id="28D650BB-96FB-D140-78C3-9021771BE25F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:32:17 UTC</createdTime>
+<generatorID>A6879EBF-66BC-F5D2-8E38-190280A9493F</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DF41AA4-8DBB-2C9C-639F-AF1C8300D7A4" referredColumn="6D174C6A-9F7D-EB7E-2E16-C66548A6EC7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="042E4BFD-6E86-0E60-E215-64B9CC368628" name="Adres_PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>7889856B-5910-8A20-FEFD-6A4A3AC7ADAF</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BFB100-DDAB-08CA-A32E-FC03BEF11E8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB12AD4F-4A4F-7D74-F7C4-97445EB6BF99" name="Adres_Region_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>76AC4C59-C1B4-81C5-4A28-B8EB288DD05A</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94B1F3A-176F-76C7-169D-6F05A01D6C9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C190AA-0F35-76D1-F2AD-A28CD713AE3F" name="Adres_Kraj_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>CD90D0F9-E021-B7B6-3B03-4CDAEBCE1BF4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9508DFA-1CC1-B7FD-F6D1-D85FBE89D45B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE733ACF-678F-E093-D57E-8BADE9D7F980" name="Adres_Zakład_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:32:17 UTC</createdTime>
+<generatorID>DCE14C7E-BABB-190A-A3B9-30AB07289C39</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28D650BB-96FB-D140-78C3-9021771BE25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

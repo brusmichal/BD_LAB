@@ -1,0 +1,268 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD248E79-CB84-4F2F-A5FA-A15A14212729" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="EMPLOYEES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="DE127A54-5437-82B8-C422-A3D0F1A3E0B9">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="44333D34-BBE7-D8D7-A017-AD1C7D1F651D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SURNAME" id="E205281F-2550-1B23-606F-15ED8CCBF393">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SURNAME</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DATE" id="CA4950C8-F8A5-3D3B-8029-97E35DC83913">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>BIRTH_DATE</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="07393391-ED65-54E9-9FCA-A8DEC0EF2C49">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<constraintName>EMP_GENDER_CHECK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;K&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+<valueDef value="&apos;N&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_ID" id="548F45F7-3745-6FEE-B707-D78545EE78D5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>STATUS_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D66CC5-4C70-DDD0-2877-1BC06ECEB237" referredColumn="844F4B6E-AAA6-E090-1AD0-CAD68F02B780"/>
+</associations>
+</Column>
+<Column name="SALARY" id="4B25E14B-0878-FD26-4767-FF8BEAB413C5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_EMPLOYED" id="CD78BC25-78F6-4EB7-5258-FB57F905F09F">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DATE_EMPLOYED</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_ID" id="3B48B468-6964-5B69-5CD8-AFE27057062A">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD3623C9-C26B-0BCD-AB61-CDDE2BB9BC74" referredColumn="DCF9A688-9EDA-34FD-6271-B8B66AD840A2"/>
+</associations>
+</Column>
+<Column name="MANAGER_ID" id="2BE5A678-ADC7-940B-B884-5C3E24DA52A5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC66F2E-E132-5B7E-C261-384FDD3B475A" referredColumn="DE127A54-5437-82B8-C422-A3D0F1A3E0B9"/>
+</associations>
+</Column>
+<Column name="POSITION_ID" id="AD288F52-D18D-8042-5335-22E0A921D287">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>POSITION_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E45DA144-1D94-88FF-8BA1-AA7549733670" name="EMP_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>EMP_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE127A54-5437-82B8-C422-A3D0F1A3E0B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98867FF1-5821-FB1F-291C-D7A3B76B662B" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="EMP_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>EMP_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE127A54-5437-82B8-C422-A3D0F1A3E0B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CA15158-E63F-BB05-CEBA-7021D52992EF" name="EMP_DEP_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:40 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B48B468-6964-5B69-5CD8-AFE27057062A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EEEB61F-C6CC-D53B-44E3-9CEE4CF0488D" name="EMP_EMP_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:40 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE5A678-ADC7-940B-B884-5C3E24DA52A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4BAECE6-3577-D67D-C02F-CDC60F05EAD1" name="EMP_EMP_STATUS_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:40 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="548F45F7-3745-6FEE-B707-D78545EE78D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B98AE76-E918-E234-61A5-30D9CF4AE8D0" name="EMP_POS_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:40 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD288F52-D18D-8042-5335-22E0A921D287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

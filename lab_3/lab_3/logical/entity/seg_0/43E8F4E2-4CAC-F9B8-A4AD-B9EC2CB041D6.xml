@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43E8F4E2-4CAC-F9B8-A4AD-B9EC2CB041D6" name="POSITIONS HISTORY">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>26F2B8DC-EA0C-7F66-6367-E5D777574054</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PH ID" id="B4710CB5-6053-0901-1882-35A561142A0F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>ECA9B694-7BBF-40D8-B1D6-4BD800F38688</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE ID" id="AB8BFB09-94D1-4B94-F019-E6B396CCB695">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>EF7680B8-DFEB-39E9-E283-D5500D822908</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<referedAttribute>23021374-25A2-5DE4-A08F-748E9DCF5FA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSITION ID" id="A07D980A-B3AF-2B74-739F-52873620AEB3">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>3BB9005D-E3A4-4480-3158-BA8E074CCF94</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE START" id="1BD1FB9D-9A78-40B2-A1FC-576ED6429A17">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>396E6F8F-0835-59FC-811E-FCB923E6AFB2</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE END" id="D0A21B04-7857-73A6-3AF3-A37CF955E8B7">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>77493C87-A313-0C89-D5A7-577E0CA3B893</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="564E7325-32A4-3AF5-F015-ED2CC508F14E" name="PH PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>85630807-3CAD-C316-98F6-5A3A99874017</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4710CB5-6053-0901-1882-35A561142A0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

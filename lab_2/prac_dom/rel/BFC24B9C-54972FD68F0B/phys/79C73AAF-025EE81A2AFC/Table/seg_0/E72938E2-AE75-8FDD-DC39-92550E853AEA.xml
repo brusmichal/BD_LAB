@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRACOWNICY" directorySegmentName="seg_0" id="E72938E2-AE75-8FDD-DC39-92550E853AEA">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9FFBE884-F49D-6FAD-988C-32880741E774</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PŁEĆ" id="05784B7C-F07E-6C56-9E77-94D906F27DA8">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMIĘ" id="55351530-F373-040B-3C87-7AB490AFAF44">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ZAKŁADU" id="6489DEFB-B5AD-72A9-BF1D-93CD235307E1">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_URODZENIA" id="681730FC-E466-5D71-EB82-C2922DFCBBDF">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZAROBKI" id="703EBA01-F0A0-0E40-277C-02E4E14F278E">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ZATRUDNIENIA" id="7DE3A47F-A492-EB68-BE2E-7EC52B8A527A">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_ID" id="84E5BD59-DAA3-4910-4278-61245139FA41">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRACOWNIKA" id="AB4C5543-3A2B-A2A5-32B4-9DF3C306FCB3">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KIEROWNIKA" id="C86DD527-FB1C-EF1A-7054-3D3B360F221D">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWISKO" id="E90AE0DA-A956-47CB-0085-2A41C9333443">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_STANOWISKA" id="ED80E52F-6574-3298-64F8-B1B24BA71C97">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRACOWNICY_PK" id="41E28015-F360-FE88-E266-3795CD08923F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<schemaObject>B478C7FD-6742-CD20-CA87-E7203CEF1232</schemaObject>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRACOWNIK_STATUS_FK" id="75F713D6-AF14-E25C-89FA-B024A3E4023F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:07 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRACOWNIK_ZAKŁAD_FK" id="BB870773-D631-140A-A27C-57268EC07199">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:07 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRACOWNIK_KIEROWNIK_FK" id="E3473A5C-7B98-53B0-6D0D-4CC1317C5E1A">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:07 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PRACOWNIK_STANOWISKO" id="FDD1CF96-B9D0-E7AC-A75E-8A743F39650F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:07 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRACOWNICY_PK" id="DF5D862B-974A-3E0E-3250-6027729EC8CE">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:06 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<segment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</segment>
+<tableSpace>C9DDE147-58C9-5F83-848F-F13149BD5034</tableSpace>
+<existingIndex>41E28015-F360-FE88-E266-3795CD08923F</existingIndex>
+<indexSegment>BA8C8F0E-DB5B-BC22-ADD2-463193A4C9CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

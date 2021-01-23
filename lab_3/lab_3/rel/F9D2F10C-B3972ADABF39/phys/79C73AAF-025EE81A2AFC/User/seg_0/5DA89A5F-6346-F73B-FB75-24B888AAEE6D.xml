@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MBRUS" directorySegmentName="seg_0" id="5DA89A5F-6346-F73B-FB75-24B888AAEE6D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjName>MBRUS</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:43 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<schemaObject>9129D0F1-5AED-A6D9-D7C9-62EBF996F04C</schemaObject>
+<defTableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</defTableSpace>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="C1CE635A-265E-B0CA-E284-204B8F1A9E39">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:43 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="C413C152-0772-CD09-7CAA-029ECC809F79">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:43 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="1F5F42CD-19BD-CB46-0107-A06C08BA4BD8">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="0F1A2C43-3AA5-B8F9-9919-8166E7BDF707">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="2F1DCB51-E7B9-DE0E-FD29-84ECAE32E732">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem6" id="F9495A43-4ED9-5783-B0A3-0A5E83AAC730">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem7" id="60B42E65-D6A9-1F81-61F6-F1F454889248">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem8" id="7ABC5FDC-164A-1C3B-5AA3-6505299C44C0">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:39 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem9" id="AC6A52D8-00D3-E774-C486-1B8192885AD0">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem10" id="A0B52B70-E9C5-F591-9A0B-ADBABC61BE3D">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem11" id="8808D02E-FB3D-08A1-4536-49A1CF5F4D71">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem12" id="0899F974-D817-EC6D-0218-5EF87278577F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem13" id="195EAAFA-71D0-382F-B31F-72CC70DEC722">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:03 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem14" id="1097C62B-9066-89C4-E5A1-9F4C0057D3AC">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:03 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<size>52428800</size>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61A787D9-CA76-5FF8-4362-55D3E9CE16EC" name="COUNTRIES">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>E56C7AB8-1700-43DC-EFBB-0F686FC893E8</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COUNTRY ID" id="B4C44C03-BD20-2CF0-716D-17BDEC353C72">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>1D8B6E68-6221-7247-1FD4-0EFA8608FE7C</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="73256315-F93F-00E0-466F-2FEB87AF9BB3">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>CA08B5AF-B42E-DC32-416C-A38256EA0E73</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION ID" id="B836E3BB-4419-9DB0-CA4C-A301040DE806">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>DD721441-2C24-5759-5B2A-ACFBC1405AA5</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<referedAttribute>A4A75C41-5C91-86DA-3E08-F7908B3B3668</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE86D9F3-57B6-BF48-C12C-CCF4810DF3E0" name="COUNTRIES PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>1D21B163-E907-32F2-4305-6F0664F4DDD7</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4C44C03-BD20-2CF0-716D-17BDEC353C72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

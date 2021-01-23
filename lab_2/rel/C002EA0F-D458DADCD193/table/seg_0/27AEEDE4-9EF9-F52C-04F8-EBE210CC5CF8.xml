@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27AEEDE4-9EF9-F52C-04F8-EBE210CC5CF8" name="Pracownik">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:29:27 UTC</createdTime>
+<generatorID>B1A2630C-5E18-2825-247B-E8FE7E370F22</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pracownik_ID" id="EDC1B428-0D4A-DD39-9FE9-1B19FDA2D313">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:42:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Imię" id="74D9BD1E-3833-E926-005D-1305CC813D09">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:42:26 UTC</createdTime>
+<generatorID>D8C46348-C72F-DB26-0AB0-390E7B4BE1FC</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="39E29441-5AE9-7E46-7EA1-E4B4145E17EC">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:42:26 UTC</createdTime>
+<generatorID>FD841879-B3AC-229E-335C-0379658F8783</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wynagrodzenie" id="93984624-682E-9B20-A7BE-4580EC786A37">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:42:26 UTC</createdTime>
+<generatorID>089C1360-48C6-E4E7-E350-DBE8E245A5D5</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zakład_Zakład_ID" id="402C837F-C614-70BF-9D83-27263B688B53">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:07:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA2D1666-E2D8-BEDA-B75D-E0796CE8DC50" referredColumn="B1909EF4-322E-2F41-6F14-1CA24A64AFA6"/>
+</associations>
+</Column>
+<Column name="Pracownik_Pracownik_ID" id="1C2EF89E-2543-66E9-DDD2-707EF5BB14C7">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB85329-2B4C-9397-3F97-160A3B9983C3" referredColumn="EDC1B428-0D4A-DD39-9FE9-1B19FDA2D313"/>
+</associations>
+</Column>
+<Column name="Pracownik_ID2" id="7B2890AA-E85F-56A9-99CF-44BF309A6E88">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>6B626AE0-7D56-B7CF-CA79-DFF6F06E4B8D</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,8,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17B42C25-3912-2CA5-D3BC-192C04EDAE05" name="Pracownik_PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:42:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="EDC1B428-0D4A-DD39-9FE9-1B19FDA2D313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B12C7F2D-B5AD-60B6-96CC-59278E45114E" name="Pracownik_Pracownik_ID2_UN">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>9B3AE6C1-1246-AA11-15EC-4645428A3368</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B2890AA-E85F-56A9-99CF-44BF309A6E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1421228-0CBE-3A53-4DAD-9801904BDB61" name="Pracownik_Zakład_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:07:26 UTC</createdTime>
+<generatorID>90918BFB-55DA-4FBD-7404-DE9732E49031</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="402C837F-C614-70BF-9D83-27263B688B53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="032B8EAF-77ED-EB37-BFCB-76BF8E0F31C8" name="Pracownik_Pracownik_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:04:47 UTC</createdTime>
+<generatorID>B3055083-C13F-8F8B-AFAF-D1CE337174F1</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C2EF89E-2543-66E9-DDD2-707EF5BB14C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

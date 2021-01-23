@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14DFD298-F25F-6073-5CD5-C690C4746010" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="ADDRESSES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADDRESSES</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADDRESS_ID" id="04355BD2-212F-5860-42C6-B52E21A86C05">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>ADDRESS_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="STREET" id="E8CF8834-73CB-7A37-00C4-9D83CC3385D3">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>STREET</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="785A223C-502F-9482-FAF7-62B65FED82BF">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>POSTAL_CODE</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="6E9A9D74-BA5F-F837-0C5D-FC1AD7B83242">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="0E9D21B4-FBF1-1984-0D4D-7BDF896083D8">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADDRESSES</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:44 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B50CF6D-98EE-2115-4B6A-09A52C4E88B9" referredColumn="1D8B6E68-6221-7247-1FD4-0EFA8608FE7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="585E6FE4-9DD3-BDCC-EECC-00123A82F2A7" name="ADDR_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADDR_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:49 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04355BD2-212F-5860-42C6-B52E21A86C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0469D35-C0B3-B8A3-5809-D0076F5D9E30" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="ADDR_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADDR_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:48 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04355BD2-212F-5860-42C6-B52E21A86C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA2370E-666F-6EDC-6EB9-E4F28B148B88" name="ADDR_COUNTRY_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:51 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9D21B4-FBF1-1984-0D4D-7BDF896083D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

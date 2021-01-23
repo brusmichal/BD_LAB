@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C66B63D-9892-203C-C4A4-52400A5678FA" name="REGIONS">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>9DAD2EF9-98F3-C067-7C9E-1DE647551926</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="REGION ID" id="A4A75C41-5C91-86DA-3E08-F7908B3B3668">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>CA0C2416-2DD6-F058-5AD3-F42BAE5AED96</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="42D3D504-891A-268D-5336-E740B1AFE40E">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>3DA632E6-CF66-BFC6-6F0E-86B76AF2B5E5</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="074A2468-FB87-8AFA-87E0-9B25B7B36E63" name="REG PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>200A6D72-6ECA-E607-76AD-371E35E9B544</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4A75C41-5C91-86DA-3E08-F7908B3B3668</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

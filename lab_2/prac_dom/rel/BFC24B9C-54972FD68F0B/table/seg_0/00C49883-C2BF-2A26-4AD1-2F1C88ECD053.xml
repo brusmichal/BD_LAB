@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00C49883-C2BF-2A26-4AD1-2F1C88ECD053" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="STANOWISKA">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>STANOWISKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_STANOWISKA" id="CE6350B7-21CE-764F-C268-63C86D52A2AB">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>STANOWISKA</sourceObjSchema>
+<sourceObjName>ID_STANOWISKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="6A32601C-9BCD-906A-5F59-3449E4A4883B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>STANOWISKA</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN_ZAROBKI" id="3788FB73-8A8D-EFA9-AD25-FEBF4B39C984">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>STANOWISKA</sourceObjSchema>
+<sourceObjName>MIN_ZAROBKI</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_ZAROBKI" id="1B25F8CD-DF12-24AA-C207-5DCCC1E2C716">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>STANOWISKA</sourceObjSchema>
+<sourceObjName>MAX_ZAROBKI</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="177D847E-D5C6-C5B7-93E5-931AB5777361" name="STANOWISKA_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>STANOWISKA_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE6350B7-21CE-764F-C268-63C86D52A2AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C3167A3-9C69-B8A5-1C9F-D03291988097" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="STANOWISKA_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>STANOWISKA_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:40:42 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE6350B7-21CE-764F-C268-63C86D52A2AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

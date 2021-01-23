@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4323ED79-E8A2-5A38-DEF2-6CAC1E9C2B4D" name="Stanowisko">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:28:02 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Stanowisko ID" id="ECE9EF83-D1FA-1753-3C58-43B63B693223">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:50:29 UTC</createdTime>
+<generatorID>8758EC0F-1A7E-89C5-C723-856B31811B0F</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,30,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="34CE1330-01F9-460C-1045-21AC51F78A6C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:50:29 UTC</createdTime>
+<generatorID>9987A8DB-5F40-44F1-3B23-DBE3D5F350CE</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Placa min" id="35E94ED1-7FE7-5A26-EFEF-4B2758E740F5">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:50:29 UTC</createdTime>
+<generatorID>3B43132F-0C78-6DA8-139C-EEB9F50AE7A8</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Placa max" id="4483595A-B66E-DF2A-1559-475F62F83385">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:50:29 UTC</createdTime>
+<generatorID>ED906B90-9196-01DB-0076-C463CCB7CC7D</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5EC29D0-EF1D-DB45-9CC8-A6A5B795816F" name="Stanowisko PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:12:37 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECE9EF83-D1FA-1753-3C58-43B63B693223</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

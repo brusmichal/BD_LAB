@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2EB05223-B55F-837A-EAB7-84C02A2E2D77" name="Region">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:27:09 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Region_ID" id="3352C0F2-52CD-94C4-AE58-42FF36BBD298">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:58:38 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa " id="C3D588D4-A8C7-3C66-1180-E45C7B60A8B5">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:18:51 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4ECE2A5C-945A-BBF1-48B3-4FF7D1BAF517" name="Region PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:58:55 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3352C0F2-52CD-94C4-AE58-42FF36BBD298</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

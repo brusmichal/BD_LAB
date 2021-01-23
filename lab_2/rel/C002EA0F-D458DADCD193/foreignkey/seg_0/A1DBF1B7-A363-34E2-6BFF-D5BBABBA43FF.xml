@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A1DBF1B7-A363-34E2-6BFF-D5BBABBA43FF" containerWithKeyObject="691BC9CA-8708-B8DA-4366-AF4D32F61DC3" localFKIndex="DD32A8F9-43E8-9C5D-7F13-0067CB498168" name="Kraj_Region_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:28:20 UTC</createdTime>
+<generatorID>5A2DA63D-DAFE-28AE-89FD-72D43CB07965</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<referredTableLongName>Region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19A8A947-6602-F641-622C-E6255909BFF6</referredTableID>
+<keyObject>AE5EB201-9FD4-AE59-CE71-27381CB3AB7C</keyObject>
+<referredKeyID>AE5EB201-9FD4-AE59-CE71-27381CB3AB7C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Region_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

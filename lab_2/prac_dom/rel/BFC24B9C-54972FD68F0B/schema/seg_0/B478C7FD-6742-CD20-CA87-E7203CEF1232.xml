@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MBRUS" directorySegmentName="seg_0" id="B478C7FD-6742-CD20-CA87-E7203CEF1232">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:21:45 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+</SchemaObject>

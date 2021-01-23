@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Menadżerstwo" directorySegmentName="seg_0" id="B3055083-C13F-8F8B-AFAF-D1CE337174F1">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:55:42 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>jest menadżerem</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B1A2630C-5E18-2825-247B-E8FE7E370F22</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B1A2630C-5E18-2825-247B-E8FE7E370F22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E56C7AB8-1700-43DC-EFBB-0F686FC893E8" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="COUNTRIES">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>COUNTRIES</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="1D8B6E68-6221-7247-1FD4-0EFA8608FE7C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="CA08B5AF-B42E-DC32-416C-A38256EA0E73">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_ID" id="B4845057-870D-1B46-0824-9B2C3B79C0B4">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>COUNTRIES</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24C10E4D-B570-0D85-B8E5-A0EF75CA3D82" referredColumn="CA0C2416-2DD6-F058-5AD3-F42BAE5AED96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D21B163-E907-32F2-4305-6F0664F4DDD7" name="COUNTRIES_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>COUNTRIES_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D8B6E68-6221-7247-1FD4-0EFA8608FE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C5B7197-D813-8E52-2592-CF8D7270C6B0" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="COUNTRIES_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>COUNTRIES_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D8B6E68-6221-7247-1FD4-0EFA8608FE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E70E1AC-D5F6-A24F-738B-54496FC3D9FC" name="COUNTRIES_REG_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:15 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4845057-870D-1B46-0824-9B2C3B79C0B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

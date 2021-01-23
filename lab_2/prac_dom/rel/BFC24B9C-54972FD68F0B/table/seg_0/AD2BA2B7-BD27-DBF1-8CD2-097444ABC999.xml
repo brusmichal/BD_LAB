@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD2BA2B7-BD27-DBF1-8CD2-097444ABC999" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="ZAKŁADY">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ZAKŁADY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:28 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZAKŁADU" id="7D37DAF3-866C-5210-A4EF-1886DB6EF500">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>ID_ZAKŁADU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="62546995-9081-C464-5CD1-A040A13231A8">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ZAŁOŻENIA" id="3C7ECABD-E6E0-2C7B-C5F6-C516DCD53C83">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>DATA_ZAŁOŻENIA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDŻET_ROCZNY" id="B1C6FC73-83F0-CCF3-4BDC-51F74C9D0604">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>BUDŻET_ROCZNY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ADRESU" id="D123DBF6-7C5C-F7B7-1EA7-BDAA1C05B902">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>ID_ADRESU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="479F15C8-EC28-F241-C2F2-8890ACD34527" referredColumn="A5F3F724-4A31-10A6-CC22-052A6C8C4594"/>
+</associations>
+</Column>
+<Column name="ID_KIEROWNIKA" id="36F4442D-4CDB-4A1B-5B46-51A18425FDA3">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ZAKŁADY</sourceObjSchema>
+<sourceObjName>ID_KIEROWNIKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3639D5AC-D2D5-A772-EDCE-971C7CCE2C7D" referredColumn="AB4C5543-3A2B-A2A5-32B4-9DF3C306FCB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D62436C-26EA-0A02-E25E-AA2B8BC67819" name="ZAKŁAD_ID">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ZAKŁAD_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D37DAF3-866C-5210-A4EF-1886DB6EF500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C341CD7-94EE-9B59-CCE4-E412AE360F8E" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="ZAKŁAD_ID">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ZAKŁAD_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D37DAF3-866C-5210-A4EF-1886DB6EF500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DDC385E-0FE8-A4D0-3AFB-C6B54CDC9204" name="ZAKŁAD_ADRES_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D123DBF6-7C5C-F7B7-1EA7-BDAA1C05B902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F58553AD-510F-94A2-1A82-70F36B804845" name="ZAKŁAD_KIEROWNIK_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:53:29 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36F4442D-4CDB-4A1B-5B46-51A18425FDA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

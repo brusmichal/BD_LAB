@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PH_EMP_FK" directorySegmentName="seg_0" id="EF7680B8-DFEB-39E9-E283-D5500D822908">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>09B0D192-5B44-4D54-DF54-F3D3B788795F</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<sourcePk>75E1B779-1586-2201-0E6C-4E97161A0FDA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF474E4E-3006-BFF4-6CA4-5F404CBF32FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43E8F4E2-4CAC-F9B8-A4AD-B9EC2CB041D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

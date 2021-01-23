@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DAD2EF9-98F3-C067-7C9E-1DE647551926" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="REGIONS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REGIONS</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="CA0C2416-2DD6-F058-5AD3-F42BAE5AED96">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="3DA632E6-CF66-BFC6-6F0E-86B76AF2B5E5">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="200A6D72-6ECA-E607-76AD-371E35E9B544" name="REG_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REG_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA0C2416-2DD6-F058-5AD3-F42BAE5AED96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE17E04C-3669-1D3D-3AA6-D24758076478" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="REG_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>REG_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:20:34 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA0C2416-2DD6-F058-5AD3-F42BAE5AED96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

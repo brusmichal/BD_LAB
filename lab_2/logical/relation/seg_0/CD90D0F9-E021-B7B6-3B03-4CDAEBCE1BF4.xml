@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adresy" directorySegmentName="seg_0" id="CD90D0F9-E021-B7B6-3B03-4CDAEBCE1BF4">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:23:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<sourcePk>DD2F70A3-A0AB-23F9-B65B-D2A6BC93D0B1</sourcePk>
+<targetPk>7889856B-5910-8A20-FEFD-6A4A3AC7ADAF</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Do kraju naleza</nameOnSource>
+<nameOnTarget>jest czescia kraju</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15C73C9A-DAFC-FD7D-3A84-973102067489</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1A47319D-FADD-D2D0-BA58-2B1616AAFB8A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

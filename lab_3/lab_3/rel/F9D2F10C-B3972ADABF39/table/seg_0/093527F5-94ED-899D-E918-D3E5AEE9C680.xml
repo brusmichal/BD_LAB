@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="093527F5-94ED-899D-E918-D3E5AEE9C680" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="DEPARTMENTS">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_ID" id="DCF9A688-9EDA-34FD-6271-B8B66AD840A2">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NAME" id="7BF34CA7-3978-C513-BD58-079E728BFAC9">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTABLISHED" id="7347437A-A823-7C96-9D90-8B243068EB84">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>ESTABLISHED</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR_BUDGET" id="42C84BEC-09DC-3081-4799-743DE742A21C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>YEAR_BUDGET</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS_ID" id="8B45E7E0-E98E-E170-991F-C31C581E54D8">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>ADDRESS_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10829935-90C5-923E-E7B1-99E595EE3843" referredColumn="04355BD2-212F-5860-42C6-B52E21A86C05"/>
+</associations>
+</Column>
+<Column name="MANAGER_ID" id="976D3D2E-7FFF-25BC-535F-AAEE2E650E5F">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44F4DDCB-2B8D-6448-0C03-F5134FCD3624" referredColumn="DE127A54-5437-82B8-C422-A3D0F1A3E0B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81CB7890-7129-723E-82D2-6BE47016C3C4" name="DEP_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>DEP_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:30 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF9A688-9EDA-34FD-6271-B8B66AD840A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="602344BA-7A84-3B2A-96B5-DF5E39E710F5" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="DEP_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>DEP_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:29 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF9A688-9EDA-34FD-6271-B8B66AD840A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE1ACA11-5554-65C1-682E-25EDD06988DF" name="DEP_ADDR_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:30 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B45E7E0-E98E-E170-991F-C31C581E54D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85415F2-62CB-2438-49D4-A0F793402E79" name="DEP_EMP_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:30 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="976D3D2E-7FFF-25BC-535F-AAEE2E650E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

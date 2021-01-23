@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26F2B8DC-EA0C-7F66-6367-E5D777574054" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="POSITIONS_HISTORY">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>POSITIONS_HISTORY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PH_ID" id="ECA9B694-7BBF-40D8-B1D6-4BD800F38688">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>POSITIONS_HISTORY</sourceObjSchema>
+<sourceObjName>PH_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="EMPLOYEE_ID" id="A787F507-52A5-A55F-25FC-3FBB1FB7C88F">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>POSITIONS_HISTORY</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09B0D192-5B44-4D54-DF54-F3D3B788795F" referredColumn="DE127A54-5437-82B8-C422-A3D0F1A3E0B9"/>
+</associations>
+</Column>
+<Column name="POSITION_ID" id="3BB9005D-E3A4-4480-3158-BA8E074CCF94">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>POSITIONS_HISTORY</sourceObjSchema>
+<sourceObjName>POSITION_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_START" id="396E6F8F-0835-59FC-811E-FCB923E6AFB2">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>POSITIONS_HISTORY</sourceObjSchema>
+<sourceObjName>DATE_START</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_END" id="77493C87-A313-0C89-D5A7-577E0CA3B893">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>POSITIONS_HISTORY</sourceObjSchema>
+<sourceObjName>DATE_END</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85630807-3CAD-C316-98F6-5A3A99874017" name="PH_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>PH_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA9B694-7BBF-40D8-B1D6-4BD800F38688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC0D26EE-5051-3BB7-77E5-0894D040D0CB" schemaObject="9129D0F1-5AED-A6D9-D7C9-62EBF996F04C" name="PH_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>PH_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECA9B694-7BBF-40D8-B1D6-4BD800F38688"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B67A343-F7C7-75AF-D1A4-F19B64812D96" name="PH_EMP_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A787F507-52A5-A55F-25FC-3FBB1FB7C88F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A7168AA-3DC3-DA4A-3472-D5894263FD9E" name="PH_POS_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB9005D-E3A4-4480-3158-BA8E074CCF94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

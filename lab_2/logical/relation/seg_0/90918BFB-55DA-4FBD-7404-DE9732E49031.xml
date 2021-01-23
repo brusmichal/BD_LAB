@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zakład_zatrudnienia" directorySegmentName="seg_0" id="90918BFB-55DA-4FBD-7404-DE9732E49031">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:57:29 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>Jest_zatrudniony</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B1A2630C-5E18-2825-247B-E8FE7E370F22</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D57887AE-10A6-EF13-AC9B-FC46334F05FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

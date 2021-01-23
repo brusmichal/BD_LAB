@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POSITIONS_HISTORY" directorySegmentName="seg_0" id="26F2B8DC-EA0C-7F66-6367-E5D777574054">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<schemaObject>9129D0F1-5AED-A6D9-D7C9-62EBF996F04C</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A012D80E-21D0-DF71-EFD4-BC5D6E4FCC32</segment>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>ADVANCED</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_START" id="396E6F8F-0835-59FC-811E-FCB923E6AFB2">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSITION_ID" id="3BB9005D-E3A4-4480-3158-BA8E074CCF94">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_END" id="77493C87-A313-0C89-D5A7-577E0CA3B893">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="A787F507-52A5-A55F-25FC-3FBB1FB7C88F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PH_ID" id="ECA9B694-7BBF-40D8-B1D6-4BD800F38688">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:52 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PH_PK" id="EC0D26EE-5051-3BB7-77E5-0894D040D0CB">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<schemaObject>9129D0F1-5AED-A6D9-D7C9-62EBF996F04C</schemaObject>
+<segment>D36EC76B-2365-47F3-42CA-B31C99AE1E33</segment>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PH_POS_FK" id="1A7168AA-3DC3-DA4A-3472-D5894263FD9E">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PH_EMP_FK" id="8B67A343-F7C7-75AF-D1A4-F19B64812D96">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PH_PK" id="85630807-3CAD-C316-98F6-5A3A99874017">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:53 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<segment>D36EC76B-2365-47F3-42CA-B31C99AE1E33</segment>
+<tableSpace>5AE2B8CF-7824-4066-0DDF-86751C1A3F59</tableSpace>
+<existingIndex>EC0D26EE-5051-3BB7-77E5-0894D040D0CB</existingIndex>
+<indexSegment>D36EC76B-2365-47F3-42CA-B31C99AE1E33</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

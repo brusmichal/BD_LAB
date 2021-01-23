@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAF69D62-1E33-DB75-43C5-5033B3085634" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="HISTORIA_STANOWISKA">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>HISTORIA_STANOWISKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:31 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HZ_ID" id="58E78E33-3407-3584-B6F8-E10F83825EF9">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>HISTORIA_STANOWISKA</sourceObjSchema>
+<sourceObjName>HZ_ID</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRACOWNIKA" id="A021D3D2-2789-5C78-5EB7-476772BDFFA2">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>HISTORIA_STANOWISKA</sourceObjSchema>
+<sourceObjName>ID_PRACOWNIKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C51AAFA5-7465-3B9A-13E8-53E5C3E2F76D" referredColumn="AB4C5543-3A2B-A2A5-32B4-9DF3C306FCB3"/>
+</associations>
+</Column>
+<Column name="ID_STANOWISKA" id="AF9C3D75-FCDA-EB02-55D0-63E997DD035D">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>HISTORIA_STANOWISKA</sourceObjSchema>
+<sourceObjName>ID_STANOWISKA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F040C5DD-C248-AE94-19B1-7F35C13632FD" referredColumn="CE6350B7-21CE-764F-C268-63C86D52A2AB"/>
+</associations>
+</Column>
+<Column name="DATA_ROZPOCZĘCIA" id="2CB99EF2-40C8-4AAD-D19D-FCA0CC43908B">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>HISTORIA_STANOWISKA</sourceObjSchema>
+<sourceObjName>DATA_ROZPOCZĘCIA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ZAKOŃCZENIA" id="F9EE6701-981B-9F70-36EC-2188A3F2C09C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>HISTORIA_STANOWISKA</sourceObjSchema>
+<sourceObjName>DATA_ZAKOŃCZENIA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB6017E1-179C-D4E7-CDBF-428C9BE9356E" name="HZ_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>HZ_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E78E33-3407-3584-B6F8-E10F83825EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA0F2587-BA75-777C-0ADB-DC1FF6091A47" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="HZ_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>HZ_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58E78E33-3407-3584-B6F8-E10F83825EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A27825E0-651A-D128-D8B3-FAA9FBD40997" name="HZ_PRACOWNIK_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A021D3D2-2789-5C78-5EB7-476772BDFFA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD1E3221-1F31-DE55-B247-4CFB12BF6A5D" name="HZ_STANOWISKO">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:57:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9C3D75-FCDA-EB02-55D0-63E997DD035D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="835D31CD-7674-BC7D-F64B-B13A39C32089" name="Historia_zatrudnienia">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pracownik_Pracownik_ID" id="4F3B12CD-476E-2419-E102-4F56999E38E9">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE08463D-748B-21BE-A5A4-960CB418D2EE" referredColumn="EDC1B428-0D4A-DD39-9FE9-1B19FDA2D313"/>
+</associations>
+</Column>
+<Column name="Stanowisko_Stanowisko_ID" id="52DD9C38-27E3-E609-20B5-C0C3DCF3C6E1">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,30,8</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="562B8E62-E4D0-AD07-0493-D7978E99587D" referredColumn="8758EC0F-1A7E-89C5-C723-856B31811B0F"/>
+</associations>
+</Column>
+<Column name="Data_od" id="3C9BB908-93D1-AAA5-1638-6C0AE55C1364">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:16:07 UTC</createdTime>
+<generatorID>3C4BF228-5146-A4C2-0CAF-19AFB3087E03</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Data_do" id="36EDE6A3-F359-0B7C-C9C4-43466855CA84">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:16:07 UTC</createdTime>
+<generatorID>16631AF0-9179-8BE7-10A9-B60AD303DB17</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Pracownik_Pracownik_ID2" id="E0EBA3A0-937C-7A19-1A70-D37FADC4A665">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:32:17 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A37854C9-4881-341B-9616-974DE97F81C2" referredColumn="7B2890AA-E85F-56A9-99CF-44BF309A6E88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5158211E-C2C7-0D33-99CA-1CDC8588110F" name="Historia_zatrudnienia_PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F3B12CD-476E-2419-E102-4F56999E38E9"/>
+<colUsage columnID="52DD9C38-27E3-E609-20B5-C0C3DCF3C6E1"/>
+<colUsage columnID="E0EBA3A0-937C-7A19-1A70-D37FADC4A665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D25ED93-61FB-7727-0D38-8475E2C8C11C" name="Historia_zatrudnienia_Pracownik_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<generatorID>E40E346F-6DB7-3912-9BEA-F0F8CD6436C4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F3B12CD-476E-2419-E102-4F56999E38E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E7697A-4566-3234-E0DF-5D69723841AE" name="Historia_zatrudnienia_Stanowisko_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<generatorID>E40E346F-6DB7-3912-9BEA-F0F8CD6436C4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52DD9C38-27E3-E609-20B5-C0C3DCF3C6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C226A98-8CB5-8450-B348-B8B30D85B9FF" name="Historia_zatrudnienia_Pracownik_FKv1">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:32:17 UTC</createdTime>
+<generatorID>E40E346F-6DB7-3912-9BEA-F0F8CD6436C4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0EBA3A0-937C-7A19-1A70-D37FADC4A665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

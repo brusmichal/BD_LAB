@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COUNTRIES_REG_FK" directorySegmentName="seg_0" id="DD721441-2C24-5759-5B2A-ACFBC1405AA5">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:21:23 UTC</createdTime>
+<generatorID>24C10E4D-B570-0D85-B8E5-A0EF75CA3D82</generatorID>
+<ownerDesignName>lab_3</ownerDesignName>
+<engineerTo>
+<item key="F9D2F10C-91AD-9A9E-165C-B3972ADABF39" value="true"/>
+</engineerTo>
+<sourcePk>074A2468-FB87-8AFA-87E0-9B25B7B36E63</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C66B63D-9892-203C-C4A4-52400A5678FA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61A787D9-CA76-5FF8-4362-55D3E9CE16EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

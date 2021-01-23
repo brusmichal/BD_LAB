@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3B50CF6D-98EE-2115-4B6A-09A52C4E88B9" containerWithKeyObject="14DFD298-F25F-6073-5CD5-C690C4746010" localFKIndex="8EA2370E-666F-6EDC-6EB9-E4F28B148B88" name="ADDR_COUNTRY_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADDR_COUNTRY_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:18:51 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<referredTableLongName>MBRUS.COUNTRIES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E56C7AB8-1700-43DC-EFBB-0F686FC893E8</referredTableID>
+<keyObject>1D21B163-E907-32F2-4305-6F0664F4DDD7</keyObject>
+<referredKeyID>1D21B163-E907-32F2-4305-6F0664F4DDD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COUNTRY_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

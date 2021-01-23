@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C93F7F06-73F9-1750-9716-B55432D081C0" containerWithKeyObject="20307849-BC0F-FC25-BD7A-B393CB6B2E67" localFKIndex="41F7214C-8F8A-647C-62C7-9707F770A0A6" name="KRAJ_REGION_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>KRAJ_REGION_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:32 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<referredTableLongName>MBRUS.REGIONY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>67CEB80B-8FF4-4F33-57A5-C3E5442B030C</referredTableID>
+<keyObject>5C38D39B-A3FC-A8F2-7C92-88B500A02BA6</keyObject>
+<referredKeyID>5C38D39B-A3FC-A8F2-7C92-88B500A02BA6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_REGIONU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

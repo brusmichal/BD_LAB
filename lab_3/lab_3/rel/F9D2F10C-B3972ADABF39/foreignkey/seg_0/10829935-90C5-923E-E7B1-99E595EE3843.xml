@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10829935-90C5-923E-E7B1-99E595EE3843" containerWithKeyObject="093527F5-94ED-899D-E918-D3E5AEE9C680" localFKIndex="FE1ACA11-5554-65C1-682E-25EDD06988DF" name="DEP_ADDR_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>DEP_ADDR_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:30 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<referredTableLongName>MBRUS.ADDRESSES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14DFD298-F25F-6073-5CD5-C690C4746010</referredTableID>
+<keyObject>D0469D35-C0B3-B8A3-5809-D0076F5D9E30</keyObject>
+<referredKeyID>D0469D35-C0B3-B8A3-5809-D0076F5D9E30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ADDRESS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

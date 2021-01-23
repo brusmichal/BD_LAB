@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE397A17-4672-C10F-97FC-56D9B6D36388" name="Stanowisko">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:29:27 UTC</createdTime>
+<generatorID>4323ED79-E8A2-5A38-DEF2-6CAC1E9C2B4D</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stanowisko_ID" id="8758EC0F-1A7E-89C5-C723-856B31811B0F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:50:04 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,30,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="9987A8DB-5F40-44F1-3B23-DBE3D5F350CE">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:47:19 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Placa_min" id="3B43132F-0C78-6DA8-139C-EEB9F50AE7A8">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:47:50 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Placa_max" id="ED906B90-9196-01DB-0076-C463CCB7CC7D">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:48:02 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58EAD03F-46C1-7DA8-B3A6-B28EED5D9482" name="Stanowisko_PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 12:13:26 UTC</createdTime>
+<generatorID>A5EC29D0-EF1D-DB45-9CC8-A6A5B795816F</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8758EC0F-1A7E-89C5-C723-856B31811B0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

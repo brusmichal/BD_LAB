@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="853DAD8D-06DB-7C2B-E7E4-D4F907B65A3C" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="ADRESY">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADRESY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ADRESU" id="A5F3F724-4A31-10A6-CC22-052A6C8C4594">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADRESY</sourceObjSchema>
+<sourceObjName>ID_ADRESU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA" id="8B481F36-DF65-46E5-626F-B475978F4DEE">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADRESY</sourceObjSchema>
+<sourceObjName>ULICA</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOD_POCZTOWY" id="64E284CF-95D3-DF00-164C-DDD822365EEA">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADRESY</sourceObjSchema>
+<sourceObjName>KOD_POCZTOWY</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIASTO" id="4E0E5570-C8AB-F171-7238-FBF0E75C5EC3">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADRESY</sourceObjSchema>
+<sourceObjName>MIASTO</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_KRAJU" id="FC55CBA1-B945-DA4A-1E05-C5E62D1C779C">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>ADRESY</sourceObjSchema>
+<sourceObjName>ID_KRAJU</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63950102-F53B-18F6-AAA2-48B819D92FD4" referredColumn="4E933BCA-F5BA-4333-AE0E-D262476B0A0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1B14FFD-4CAE-48E4-F4A6-4AE8E5FA5DE9" name="ADRESY_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADRESY_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:14 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F3F724-4A31-10A6-CC22-052A6C8C4594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74287709-F798-28E3-36B7-5E5953E780CC" schemaObject="B478C7FD-6742-CD20-CA87-E7203CEF1232" name="ADRESY_PK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>ADRESY_PK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:13 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F3F724-4A31-10A6-CC22-052A6C8C4594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89DC788F-E211-8145-E43D-D71FC3E20E5C" name="ADRES_KRAJ_FK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 21:22:14 UTC</createdTime>
+<ownerDesignName>prac_dom</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC55CBA1-B945-DA4A-1E05-C5E62D1C779C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

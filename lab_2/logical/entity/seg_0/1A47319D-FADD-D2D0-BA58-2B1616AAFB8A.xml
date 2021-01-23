@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A47319D-FADD-D2D0-BA58-2B1616AAFB8A" name="Adres">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-10-27 11:28:18 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Adres_ID" id="1FCBF721-2ECF-A8F4-9396-7ADE0978BC3C">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:19:20 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,5,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="D9BD1263-E71E-DBCD-050A-3FC1F6275BF8">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:47:35 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kod pocztowy" id="2E4CE888-5F94-F986-DDED-91C56A5A3499">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:48:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Miasto" id="0ED10DCE-8197-D752-76E7-2F61545ECCBD">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 10:49:06 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kraj_ID" id="B3BB5E29-17BE-9D46-2B18-869315B1C472">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:23:36 UTC</createdTime>
+<generatorID>CD90D0F9-E021-B7B6-3B03-4CDAEBCE1BF4</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<referedAttribute>56828032-FF34-94A0-3F35-474AD6FD8B89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zakład_ID" id="A6879EBF-66BC-F5D2-8E38-190280A9493F">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:29:36 UTC</createdTime>
+<generatorID>DCE14C7E-BABB-190A-A3B9-30AB07289C39</generatorID>
+<ownerDesignName>lab_2</ownerDesignName>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="true"/>
+</engineerTo>
+<referedAttribute>2B5F9CA9-5EBE-310A-4CEA-1F377448E2BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7889856B-5910-8A20-FEFD-6A4A3AC7ADAF" name="Adres PK">
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-09 19:19:36 UTC</createdTime>
+<ownerDesignName>lab_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C002EA0F-0FFE-C12A-7618-D458DADCD193" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FCBF721-2ECF-A8F4-9396-7ADE0978BC3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

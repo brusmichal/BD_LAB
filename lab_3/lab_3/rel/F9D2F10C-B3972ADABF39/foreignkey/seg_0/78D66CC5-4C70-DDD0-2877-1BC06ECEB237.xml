@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78D66CC5-4C70-DDD0-2877-1BC06ECEB237" containerWithKeyObject="FD248E79-CB84-4F2F-A5FA-A15A14212729" localFKIndex="D4BAECE6-3577-D67D-C02F-CDC60F05EAD1" name="EMP_EMP_STATUS_FK">
+<sourceConnName>ora4</sourceConnName>
+<sourceObjSchema>MBRUS</sourceObjSchema>
+<sourceObjName>EMP_EMP_STATUS_FK</sourceObjName>
+<createdBy>mbrus</createdBy>
+<createdTime>2020-11-03 11:19:40 UTC</createdTime>
+<ownerDesignName>lab_3</ownerDesignName>
+<referredTableLongName>MBRUS.EMP_STATUS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BDC7242-E1F6-182A-1263-1F08080C2290</referredTableID>
+<keyObject>C17431AA-772D-282D-494B-2B0E296692A0</keyObject>
+<referredKeyID>C17431AA-772D-282D-494B-2B0E296692A0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>STATUS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
